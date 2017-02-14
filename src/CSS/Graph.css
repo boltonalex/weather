@@ -1,0 +1,77 @@
+body {
+  background: #CACBCD;
+}
+
+h1 {
+  color: #44314E;
+  font-size: 15px;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.small a {
+  color: #44314E;
+}
+
+.graph {
+  /*width: 100%;*/
+  width: 50vw;
+  height: 50vh;
+  background: #B1B5A3;
+  border: solid 10px #fff;
+  position: relative;
+  margin: auto;
+  -webkit-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.line {
+  background: #A5D9BF;
+  color: #fff;
+  float: left;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+  text-align: center;
+  overflow: scroll;
+  padding: 1vh 1vw;
+}
+
+.line:hover {
+  font-size: 16px;
+  color: #999;
+  background: #ADEAE5;
+}
+
+.dateContainer {
+  position: relative;
+}
+
+.graphDates {
+  /*width: 100%;*/
+  width: 50vw;
+  height: 20vh;
+  /*top: 360px;*/
+  /*background: #333;*/
+  display: block;
+  position: relative;
+  /*left: 5.5vw;*/
+  margin: auto;
+  color: #44314E;
+  margin-top: 5vh;
+}
+
+.date {
+  position: absolute;
+  padding-top: 100px;
+  font-size: 12px;
+  text-align: left;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 130px;
+}
