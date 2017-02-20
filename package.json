@@ -9,9 +9,12 @@
   },
   "dependencies": {
     "axios": "^0.15.3",
-    "jsonfile": "^2.4.0",
+    "bootstrap": "^3.3.7",
+    "chart.js": "^2.5.0",
+    "moment": "^2.17.1",
     "react": "^15.4.2",
     "react-bootstrap": "^0.30.7",
+    "react-chartjs-2": "^2.0.0",
     "react-dom": "^15.4.2",
     "react-timestamp": "^3.1.0"
   },
